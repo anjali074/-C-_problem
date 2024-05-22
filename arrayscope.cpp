@@ -2,7 +2,8 @@
 using namespace std;
 void update(int arr[], int n){//make function
 cout<<"inside the function"<<endl;
-
+//updating array first elements
+arr[0]=120;
 //print this array
   for(int i=0;i<3; i++){
     cout<<arr[i]<<" ";
