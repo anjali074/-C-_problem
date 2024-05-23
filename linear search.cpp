@@ -15,7 +15,7 @@ int main (){
   cout<<"Enter the key"<<endl;
   int key;
   cin>>key;
-  bool found=search(arr,10,key);
+  bool found=search(arr,10,key);//function call
   if(found){
     cout<<"key is present"<<endl;
   }
